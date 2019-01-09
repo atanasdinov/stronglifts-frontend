@@ -1,0 +1,145 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-6" src="img/sl.png" alt="">
+    </span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#workout">Workout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#history">History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#progress">Progress</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#sign_out">Logout</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+<div class="container-fluid p-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+    <div class="my-auto">
+      <h1 class="mb-0">Strong
+        <span class="text-primary">Lifts</span>
+      </h1>
+      <div class="subheading mb-5">Currently logged in as:
+        <div style="color: #d52727; display: inline;" id="nickname"></div>
+      </div>
+      <p class="lead mb-5">StrongLifts is the biggest resource for simple, effective strength and muscle building.</p>
+    </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="workout">
+    <div class="my-auto text-center">
+      <h2 class="mb-5">Workout</h2>
+
+      <div id="workout_content"></div>
+      <button class="btn btn-lg" style="background-color:#d52727; color:white; display: inline" id="start">Start workout</button>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="history">
+    <div class="my-auto text-center">
+      <h2 class="mb-custom">History</h2>
+
+        <div id="history_content" style="margin:auto"></div>
+        <button class="btn btn-lg" style="background-color:#d52727; color:white; display: inline" id="show_history">Show history</button>
+      </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="progress">
+    <div class="my-auto">
+      <h2 class="mb-5">Progress</h2>
+
+      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+      <ul class="list-inline dev-icons">
+        <li class="list-inline-item">
+          <i class="fab fa-html5"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-css3-alt"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-js-square"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-angular"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-react"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-node-js"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-sass"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-less"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-wordpress"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-gulp"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-grunt"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-npm"></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Workflow</div>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Mobile-First, Responsive Design</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Cross Browser Testing &amp; Debugging</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Cross Functional Teams</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Agile Development &amp; Scrum</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sign_out">
+    <div class="my-auto text-center">
+      <h2 class="mb-5">Are you sure?</h2>
+      <button class="btn btn-lg" style="background-color:#d52727; color:white; display: inline" id="logout">Logout</button>
+      <button class="btn btn-lg" style="background-color:#d52727; color:white; display: inline" id="cancel-logout">Home</button>
+    </div>
+  </section>
+
+</div>
